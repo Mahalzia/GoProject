@@ -36,9 +36,6 @@ header{
 	font-size: 15px;
 	display:flex;
 	flex-flow:column;
-	justify-content: space-between;
-
-
 }
 #privacy{
 	text-decoration: none;
@@ -47,8 +44,9 @@ header{
 	width:18px;
 	float:left;
 	vertical-align: center;
-
-
+}
+#anc{
+	padding-left: 20px;
 }
 ul{
 	list-style-type: none;
@@ -74,11 +72,18 @@ body{
 #welcomelogo{
 	width:130px;
 	text-align:center;
-
 }
-#searchbar{
+#welcometitle{
+	color:#4C4C4C;
+}
+.inputcontainer{
 	width:600px;
 	text-align:center;
+	display:flex;
+	flex-direction:row;
+}
+#basic-addon2{
+	float:right;
 }
 
 .bottomimage{
@@ -87,23 +92,24 @@ body{
 	display:block;
 	display:flex;
 	align-items:flex-end;
-	position:relative;bottom:93px;
+	position:relative;bottom:71px;
 	text-align:center;
-
-
 	/*scroll*/
 
+}
+#lastimage{
+	position:relative;bottom:36px;
 }
 
 
 .content1{
 	background-color:#F7F7F7;
-	height:680px;
+	height:753px;
 	width:100%;
 	text-decoration: none;
-	color:lightgrey;
-	padding-bottom:100px;
-	padding-top: 100px;
+	color:#9A9A9A;
+	padding-bottom:80px;
+	padding-top: 80px;
 
 
 
@@ -111,9 +117,9 @@ body{
 .content2{
 	background-color:#58B792;
 	border-width: 0px;
-	height:600px;
+	height:753px;
 	width:100%;
-	padding-bottom:100px;
+	padding-bottom:150px;
 	padding-top:100px;
 
 
@@ -122,9 +128,9 @@ body{
 .content3{
 	background-color:#F5A339;
 	border-width:0px;
-	height:610px;
+	height:753px;
 	width:100%;
-	padding-bottom:100px;
+	padding-bottom:150px;
 	padding-top:100px;
 
 
@@ -135,9 +141,9 @@ body{
 .content4{
 	background-color:#5F63BD;
 	border-width:0px;
-	height:600px;
+	height:753px;
 	width: 100%;
-	padding-bottom:100px;
+	padding-bottom:150px;
 	padding-top: 100px;
 
 
@@ -148,12 +154,40 @@ body{
 .content5{
 	background-color:#87CEF5;
 	border-width:0px;
-	height:600px;
+	height:753px;
 	width:100%;
-	padding-bottom:100px;
-	padding-top:100px;
+	padding-bottom:160px;
+	padding-top:140px;
+	color:#365374;
+	
+}
 
+#dismiss{
+	color:#365374;
+	float:right;
+	flex-direction: row;
+	display: flex;
+	padding-top:10px;
+	padding-right: 6px;
+	clear:both;
+}
+.switch{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	vertical-align: center;
+	color:#365374;
 
+}
+.button2{
+	font-size:20px;
+	border-radius: 8px;
+	background-color: #365374;
+	border:none;
+	color:white;
+	text-decoration: none;
+	display:inline-block;
+	padding:12px 28px;
 }
 
 
@@ -182,6 +216,16 @@ body{
 	padding:12px 28px;
 
 }
+
+.scroll{
+	display:flex;
+	justify-content: center;
+	width:80px;
+	align-self: flex-end;
+	position:relative; top:170px;
+}
+
+
 
 
 

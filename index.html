@@ -2,7 +2,7 @@
 <html>
 <head>
 
-	<title>Project/duckduckgo</title>
+	<title><img src="images/logo.png">Project/duckduckgo</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -79,12 +79,20 @@
 		<div class="content1">
 
 					<img id=welcomelogo src="images/logo.png"><br>
-					<h1><small>DuckDuckGo</small></h1><br>
-					<input id="searchbar"><br>
+					<h1 id="welcometitle"><small>DuckDuckGo</small></h1><br>
+				
+				<div class="inputcontainer">
+					<div class="input-group mb-3">
+						<input type="text" class="form-control" aria-label="text" aria-describedby="basic-addon2">
+						<div class="input-group-append">
+							<span class="input-group-text" id="basic-addon2">&#128269;</span>
+						</div>
+					</div>
+				</div>
 					<p>The search engine that doesn't track you. <a href="#" id="#"> Help Spread DuckDuckGo!</a></p>
 					<br>
 
-					<a href="#Scroll"><img src="#"><img src="#"></a>
+					<a href="scroll"><img class="scroll" src="images/teaser.png"></a>
 
 			
 		</div>
@@ -109,13 +117,14 @@
 		<img class="bottomimage" src="images\no-tracking.svg" alt="picture">
 	</div>
 
-	<div class="content5">
+	<p id="dismiss">
+		<a href="#"><small>Dismiss forever</small></a><a>&nbsp;|&nbsp;</a><a href="#">Back to search</a></p>
 
-		<a id="dismiss" href="#">Dismiss forever</a> | <a href="#"><b>Back to search</b></a>
-		<h1 id="htag">Switch to DuckDuckGo and<br> take back your privacy!</h1>
-		<p id="ptag">No tracking, no ad targeting, just searching.</p>
-		<button class="button">Add DuckDuckGo to Chrome</button>
-		<img class="bottomimage" src="images\switch-to-duckduckgo.svg" alt="picture">
+	<div class="content5">
+		<h1 class="switch">Switch to DuckDuckGo and<br> take back your privacy!</h1>
+		<p class="switch">No tracking, no ad targeting, just searching.</p>
+		<button class="button2">Add DuckDuckGo to Chrome</button>
+		<img class="bottomimage" id="lastimage" src="images\switch-to-duckduckgo.svg" alt="picture">
 
 	</div>
 
